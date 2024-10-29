@@ -1,0 +1,44 @@
+
+$font-global:"Barlow Semi Condensed", sans-serif;
+/* Author font styles */
+$A_font-weight-name-title:500; //Medium
+$A_font-sz-name:0.8125rem;
+$A_font-sz-title:0.6875rem;
+/*Content title font styles */
+$CT_font-weight-title:600; //semi-bold
+$CT_font-sz-title:1.25rem;
+/*Content Description font styles */
+$CD_font-weight_desc: 500;
+$CD_font-sz-desc:0.8125rem;
+
+
+$content-title-color: #CFCFCF;
+$fill-color-text: white;
+$author1-bg-color: #733FC8;
+$author2-bg-color:#48556A;
+$author4-bg-color:#19202D;
+$bg-color-whole: #ECF2F8;
+$bg-light-color:#030303;
+
+*, ::before, ::after{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100dvh;
+  background-color: $bg-color-whole;
+  color: rgb(255, 255, 255);
+  font-family: $font-global;
+  p, h1, h2{
+    margin: 0;
+  }
+  main{
+    padding: 70px 30px;
+  }  
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
